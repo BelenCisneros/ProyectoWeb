@@ -1,0 +1,158 @@
+
+nav{
+    background-color: orange;
+    display: inline-block;
+    height: 110px;
+    width: 100vw;
+}
+
+.logo img{
+    margin: 30px;
+    width: 150px;
+
+}
+
+.menu{
+    list-style: none;
+    position: relative;
+    align-items: flex-end;
+    margin: -70px;
+    margin-left: 370px;
+
+}
+.menu li{
+    display: inline-block;
+    position: relative;
+    margin-left: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.header-home{
+    background-image: url(../img/baile.jpg);
+    height: 600px;
+
+}
+
+
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    background-color: orange;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20;
+    text-align: center;
+    color: black;
+}
+
+.videoInicial{
+    height: 650px;
+    padding-left: 15px;
+}
+
+.video{
+    display: inline-block;
+    position: relative;
+}
+
+.imgHome{
+    display: inline-block;
+    width: 50vw;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+.equipo{
+    height: 550px;
+    width: 50vw;
+    margin-left: 300px;
+    text-align: center;
+}
+
+.equipo img{
+    width: 400px;
+}
+.equipo p{
+    margin-top: 50px;
+}
+
+.imagenesGaleria{
+    margin: 100px;
+    margin-left: 150px;
+}
+.imagenesGaleria img{
+    display: inline-block;
+    height: 200px;
+
+}
+.consulta{
+    display: inline-block;
+    margin-left: 100px;
+}
+.contacto{
+    height: 500px;
+    display: inline-block;
+    margin-left: 200px;
+}
+.contacto form{
+ position: relative;
+ margin-left: 50px;
+}
+.contacto h3{
+    height: 200px;
+    display: inline;
+}
+
+.contacto iframe{
+    height: 200px;
+    display: inline;
+    margin-top: 100px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(58, 11, 102);
+    height: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer img {
+    height: 20px;
+    background-color: #170529;
+}
+
+footer p{
+    color: white;
+}
